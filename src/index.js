@@ -11,15 +11,6 @@ function formatName(user) {
 let books = [];
 let book = '';
 
-const user = {
-    firstName: 'Gene',
-    lastName: 'Tigner'
-};
-
-export default function AddingBookField(){
-    const [value, setValue] = React.useState('Controlled');
-}
-
 const handleChange = (event) => {
     book = event.target.value;
 }
